@@ -1,0 +1,135 @@
+/* Estilos generales */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif; /* Define una fuente para el cuerpo */
+}
+
+/* Estilos del header y títulos */
+
+header {
+    background-color: rgb(16, 123, 245); /* Color de fondo celeste */
+    padding: 30px; /* Espacio interno */
+    text-align: center; /* Centra el contenido */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra del contenedor */
+    border-bottom: 5px solid #2980b9; /* Borde inferior para resaltar */
+}
+
+section h2 {
+    text-align: center; /* Centra el título */
+    font-size: 2.5em; /* Aumenta el tamaño de la fuente */
+    margin: 30px 0; /* Espaciado superior e inferior */
+    color: rgb(16, 123, 245); /* Color del texto */
+    font-weight: bold; /* Negrita para mayor impacto */
+    text-transform: uppercase; /* Convierte a mayúsculas */
+    letter-spacing: 1.5px; /* Espaciado entre letras */
+    position: relative; /* Para permitir el uso de pseudo-elementos */
+}
+
+section h2::after {
+    content: ""; /* Necesario para el pseudo-elemento */
+    display: block; /* Para que se comporte como un bloque */
+    width: 80%; /* Ancho del subrayado */
+    height: 5px; /* Alto del subrayado */
+    background-color: rgb(16, 123, 245); /* Color del subrayado */
+    margin: 10px auto 0; /* Centrar y margen superior */
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+h1 {
+    font-size: 3em; /* Aumentar el tamaño del título */
+    color: snow; /* Color del texto */
+    margin: 0; /* Elimina márgenes por defecto */
+    text-transform: uppercase; /* Convierte a mayúsculas */
+    letter-spacing: 2px; /* Espaciado entre letras */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Sombra para profundidad */
+}
+
+h2 {
+    text-align: center;
+    font-size: 2em; /* Tamaño del subtítulo */
+    margin: 30px 0; /* Espaciado */
+    color: rgb(16, 123, 245); /* Color celeste */
+    font-weight: bold; /* Negrita para destacar */
+    text-transform: uppercase; /* Convertir a mayúsculas */
+    letter-spacing: 1px; /* Espaciado entre letras */
+}
+
+/* Estilos de las reseñas usando Grid */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Crea columnas responsivas */
+    gap: 20px; /* Espacio entre elementos de la cuadrícula */
+    padding: 20px; /* Espaciado interno del contenedor */
+    background-color: rgb(54, 56, 56); /* Color de fondo */
+}
+
+.reseña {
+    background-color: white; /* Fondo blanco para cada reseña */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra para las reseñas */
+    text-align: center; /* Centra el texto dentro de la reseña */
+    padding: 15px; /* Espacio interno */
+}
+
+.reseña img {
+    width: 100%; /* Imagen ocupa todo el ancho del contenedor */
+    height: auto; /* Mantiene la proporción */
+    border-radius: 10px; /* Bordes redondeados para la imagen */
+}
+
+.reseña h3 {
+    margin: 10px 0; /* Espaciado superior e inferior */
+    font-size: 1.5em; /* Tamaño del título de la reseña */
+    color: rgb(16, 123, 245); /* Color celeste */
+}
+
+.reseña p {
+    font-size: 1em; /* Tamaño del texto de la reseña */
+    color: black; /* Color del texto */
+}
+
+/* Estilos del botón */
+
+.container {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    margin: 20px 0; /* Margen superior e inferior */
+}
+
+a.button {
+    text-decoration: none;
+    background-color: #3498db; /* Color de fondo */
+    color: white; /* Color del texto */
+    padding: 10px 20px; /* Espacio dentro del enlace, para hacer un botón */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s ease, color 0.3s ease;
+    margin: 10px 5px; /* Agrega espacio alrededor del botón */
+    display: inline-block;
+}
+
+a.button:hover {
+    background-color: #2980b9; /* Color del fondo cuando pasas el mouse */
+    color: #ecf0f1; /* Color del texto al hacer hover */
+}
+
+/* Estilos del footer */
+
+.estilo-footer {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font: small;
+    padding: 10px 0;
+    background-color: rgb(16, 123, 245);
+    border-top: 1px solid #ccc;
+    margin-top: 20px; /* Cambia el margen superior para que no esté tan lejos */
+    color: snow;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}

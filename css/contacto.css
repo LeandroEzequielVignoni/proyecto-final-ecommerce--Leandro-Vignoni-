@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0; /* Asegúrate de que no haya margen o padding por defecto */
+    box-sizing: border-box; /* Asegura que el padding y el borde no aumenten el tamaño total de los elementos */
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: white; /* Color de fondo blanco */
+    color: #333; /* Color de texto */
+}
+
+header {
+    background-color: rgb(16, 123, 245); /* Celeste */
+    padding: 20px;
+    text-align: center;
+    color: snow;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+main {
+    padding: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div {
+    margin-bottom: 15px;
+    width: 100%;
+    max-width: 400px; /* Limitar el ancho del formulario */
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #3498db; /* Color del botón */
+    color: white; /* Color del texto */
+    padding: 10px 20px; /* Espacio dentro del botón */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cursor de mano */
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9; /* Color del fondo cuando pasas el mouse */
+}
+
+a.button {
+    text-decoration: none;
+    background-color: #3498db; /* Color de fondo */
+    color: white; /* Color del texto */
+    padding: 10px 20px; /* Espacio dentro del enlace, para hacer un botón */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s ease, color 0.3s ease;
+    margin: 10px 5px; /* Espacio alrededor del botón */
+    display: inline-block; /* Asegura que se comporte como un botón */
+}
+
+a.button:hover {
+    background-color: #2980b9; /* Color del fondo cuando pasas el mouse */
+    color: #ecf0f1; /* Color del texto al hacer hover */
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.estilo-footer {
+    text-align: center;
+    font-size: small;
+    padding: 10px 0;
+    background-color: rgb(16, 123, 245);
+    color: snow;
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 1.5em; /* Reducir tamaño del título en pantallas pequeñas */
+    }
+
+    button {
+        width: 100%; /* Botones ocupan el 100% del ancho en pantallas pequeñas */
+    }
+}

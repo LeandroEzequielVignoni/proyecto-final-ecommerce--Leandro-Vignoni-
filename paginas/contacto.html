@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="/css/contacto.css">
+</head>
+<header>
+    <h1>Formulario de Contacto</h1>
+</header>
+<body>
+    <main>
+        <section>
+            <form action="https://formsubmit.co/leandroezequielvignoni@gmail.com" method="post">
+                <div>
+                    <label for="nombre">Nombre: </label>
+                    <input type="text" name="nombre" id="nombre" required>
+                </div>
+                <div>
+                    <label for="email">Correo: </label>
+                    <input type="email" name="correo" id="email" required>
+                </div>
+                <div>
+                    <label for="consulta">Consulta: </label>
+                    <textarea name="consulta" id="consulta" required></textarea>
+                </div>
+                <div>
+                    <label for="condiciones">Condiciones</label>
+                    <input type="checkbox" name="condiciones" id="condiciones" value="acepto" required>
+                </div>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+        <section class="container">
+            <a href="/" class="button">Volver al Inicio</a>
+        </section>
+        
+    </main>
+
+    <footer>
+        <p class="estilo-footer">Copyright 2024</p>
+    </footer>
+    
+</body>
+</html>
