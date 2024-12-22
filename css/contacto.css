@@ -105,3 +105,10 @@ a.button:hover {
         width: 100%; /* Botones ocupan el 100% del ancho en pantallas pequeñas */
     }
 }
+
+.error {
+    display: block; 
+    color: red;
+    font-size: 0.9em;
+    margin-top: 5px;
+}

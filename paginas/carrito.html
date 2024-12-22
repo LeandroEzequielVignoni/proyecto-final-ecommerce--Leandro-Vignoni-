@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/productos.css">
+    <link rel="icon" href="/img/logoManga.ico">
+    <title>Carrito de Compras</title>
+    <meta name="description" content="Tu Carrito de Compras">
+</head>
+<body>
+    <!-- Encabezado -->
+    <header>
+        <h1>Carrito de Compras</h1>
+        <div class="cart-container">
+            🛒 Total de Productos: <span id="cart-counter">0</span>
+        </div>
+    </header>
+
+    <!-- Contenido Principal -->
+    <main>
+        <section>
+            <h2>Detalles del Carrito</h2>
+            <div id="cart-details" class="cart-details">
+                <!-- Los productos se mostrarán aquí dinámicamente -->
+            </div>
+            <div class="cart-summary">
+                <h2>Total: $<span id="cart-total">0.00</span></h2>
+                <button id="clear-cart" class="clear-cart-button">Vaciar carrito</button>
+                <div id="cart-actions">
+                    <button class="finalize-button" disabled>Finalizar Compra</button>
+                </div>
+            </div>
+        </section>
+
+       
+        <div class="contenedor-boton">
+            <a href="productos.html" class="button">Volver a Productos</a>
+        </div>
+    </main>
+
+    <!-- Pie de Página -->
+    <footer>
+        <p class="estilo-footer">Copyright 2024</p>
+    </footer>
+
+    <!-- Script -->
+    <script src="/js/script.js"></script>
+</body>
+</html>

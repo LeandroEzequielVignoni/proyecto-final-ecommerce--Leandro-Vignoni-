@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1,
+        "name": "My Hero Academia #1",
+        "price": 900,
+        "description": "Manga de my hero academia",
+        "image": "/img/myheroacademiamangauno.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Jujutsu Kaisen #1",
+        "price": 950,
+        "description": "Manga de jujutsu kaisen",
+        "image": "/img/jujutsumangauno.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Akame Ga Kill #1",
+        "price": 850,
+        "description": "Manga de akame ga kill",
+        "image": "/img/akamegakillmangauno.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Goblin Slayer #1",
+        "price": 920,
+        "description": "Manga de Goblin Slayer",
+        "image": "/img/goblinslayermangauno.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Shuumatsu no Valkyrie #1",
+        "price": 980,
+        "description": "Manga de Shumatsu no valkyrie",
+        "image": "/img/shumatsumangauno.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Steins Gate #1",
+        "price": 870,
+        "description": "Manga de Steins;gate",
+        "image": "/img/steinsgatemangauno.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Diario Número 3 Gravity Falls",
+        "price": 1200,
+        "description": "Libro de Gravity Falls",
+        "image": "/img/gravityfallsdiariotres.jpg"
+    },
+    {
+        "id": 8,
+        "name": "El Libro De Bill",
+        "price": 1100,
+        "description": "Libro de Bill",
+        "image": "/img/thebookofbill.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Code Geass #1",
+        "price": 890,
+        "description": "Manga de Code Geass",
+        "image": "/img/codegeass01.jpg"
+    }
+]

@@ -3,88 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="img/logoEcommerce.ico">
+    <link rel="icon" href="img/logoManga.ico">
     <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/productos.css">
     <title>Tienda de Mangas</title>
+    <meta name="description" content="Aqui podras encontrar tus mangas favoritos">
 </head>
 <body>
     <header>
-        <h1 class="destacado parrafo">Rincon Otaku</h1>
-        
+        <div class="header-content">
+            <img src="/img/logoManga.png" class="logo-pequeño" alt="Logo pequeño">
+            <h1 class="destacado">Rincon Otaku</h1>
+        </div>
     </header>
     <section>
-        <h2>Bienvenido a tu tienda numero #1 en Mangas</h2>
+        <h2 class="bienvenidos">Bienvenido a tu tienda número #1 en Mangas</h2>
     </section>
     <nav>
-        
         <ul class="navegador">
-            
-            <li>
-                <a href="/">Inicio</a>
-            </li>
-            <li>
-                <a href="paginas/contacto.html">Contacto</a>
-            </li>
-            <li>
-                <a href="paginas/productos.html">Productos</a>
-            </li>
-            <li>
-                <a href="paginas/reseñas.html">Reseñas</a>
-            </li>
+            <li><a href="/">Inicio</a></li>
+            <li><a href="paginas/contacto.html">Contacto</a></li>
+            <li><a href="paginas/productos.html">Productos</a></li>
+            <li><a href="paginas/reseñas.html">Reseñas</a></li>
         </ul>
     </nav>
-
-    <!-- <main>
-        <section>
-            <h2>Seccion 1</h2>
-            <p>Hola</p>
-            <article>
-                <h3>Articulo 1</h3>
-                <p>Lorem ipsum dolor sit amet.</p>
-                <p>Lorem ipsum dolor sit.</p>
-            </article>
-        </section>
-        
-        <section>
-            <h2>Seccion 2</h2>
-            <p>Un texto <br> en dos lineas</p>
-        </section>
-        <section>
-            <h2>Mira esta imagen</h2>
-            <img src="img/steinsgatemuestra.jpe" width="600" alt="imagen de steins gate">
-        </section>
-        <section>
-            <h2>Mira este video</h2>
-            <iframe 
-             width="560"
-             height="315"
-             src="https://www.youtube.com/embed/BFPUiZBjHxs?si=6TTRlatuv-HBjDLk" 
-             title="YouTube video player" 
-             frameborder="0" 
-             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-             referrerpolicy="strict-origin-when-cross-origin" 
-             allowfullscreen>
-            </iframe>
-        </section>
-    </main>
-    
-    <section>
-        <h2>Seccion 3</h2>
-        <p>Lorem ipsum dolor <strong>sit amet</strong>  consectetur <b>elit.</b> Soluta, <em>distinctio?</em> Ea perferendis voluptatum ut expedita dolores atque enim eos esse! Aliquam animi cupiditate itaque officiis ipsam necessitatibus soluta cumque ipsum!</p>
-    </section>
-     -->
     <main>
+        <!-- Slider de imágenes -->
         <section>
-            
+            <div class="slider">
+                <div class="slider-images">
+                    <img src="/img/myheroacademiamangauno.jpg" alt="Producto 1">
+                    <img src="/img/jujutsumangauno.jpg" alt="Producto 2">
+                    <img src="/img/akamegakillmangauno.jpg" alt="Producto 3">
+                    <img src="/img/goblinslayermangauno.jpg" alt="Producto 4">
+                </div>
+                <div class="slider-buttons">
+                    <button id="prev">&lt;</button>
+                    <button id="next">&gt;</button>
+                </div>
+            </div>
+        </section>
+        <!-- <section>
             <div>
                 <img src="/img/logoManga.png" class="imagen-logo" alt="logo de la tienda">
             </div>
-            
-        </section>
-        
+        </section> -->
     </main>
     <footer>
         <p class="estilo-footer">Copyright 2024</p>
     </footer>
+    <script src="/js/script.js"></script>
 </body>
 </html>
